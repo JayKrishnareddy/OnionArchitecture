@@ -8,7 +8,6 @@ namespace DomainLayer.Models
     {
         public string CustomerName { get; set; }
         public int PurchasesProduct { get; set; }
-        public double ProductPrice { get; set; }
         public string PaymentType { get; set; }
     }
 }
