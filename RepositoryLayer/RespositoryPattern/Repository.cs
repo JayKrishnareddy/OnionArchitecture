@@ -72,6 +72,7 @@ namespace RepositoryLayer.RespositoryPattern
             {
                 throw new ArgumentNullException("entity");
             }
+            entities.Update(entity);
             _applicationDbContext.SaveChanges();
         }
 
