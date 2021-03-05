@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RepositoryLayer\RepositoryLayer.csproj" />
+    <ProjectReference Include="..\ServicesLayer\ServicesLayer.csproj" />
   </ItemGroup>
 
 </Project>

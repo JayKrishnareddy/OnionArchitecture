@@ -9,11 +9,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using RepositoryLayer;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
+using RepositoryLayer.RespositoryPattern;
+using ServicesLayer.CustomerService;
 namespace OnionArchitecture
 {
     public class Startup
@@ -37,6 +34,11 @@ namespace OnionArchitecture
 
             #region Connection String
             services.AddDbContext<ApplicationDbContext>(item => item.UseSqlServer(Configuration.GetConnectionString("myconn")));
+            #endregion
+
+            #region Services Injected
+            services.AddScoped(typeof(IRepository<>),typeof(Repository<>));
+            //services.AddTransient<ICustomerService, CustomerService>();
             #endregion
         }
 

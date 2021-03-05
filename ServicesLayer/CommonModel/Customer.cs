@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DomainLayer.Models
+namespace ServicesLayer.CommonModel
 {
-   public class Customer : BaseEntity
-   {
+   public class Customer
+    {
         public string CustomerName { get; set; }
         public int PurchasesProduct { get; set; }
         public string PaymentType { get; set; }
-   }
+    }
 }
