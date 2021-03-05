@@ -38,7 +38,7 @@ namespace OnionArchitecture
 
             #region Services Injected
             services.AddScoped(typeof(IRepository<>),typeof(Repository<>));
-            //services.AddTransient<ICustomerService, CustomerService>();
+            services.AddTransient<ICustomerService, CustomerService>();
             #endregion
         }
 
