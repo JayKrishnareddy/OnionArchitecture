@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Description>Onion Architecture in ASP.NET Core 5.0 including Fluent API, Swagger, Dependency Injection, Unit of Work</Description>
+    <Authors>Jay Krishna Reddy</Authors>
+    <Company />
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/JayKrishnareddy/OnionArchitecture</RepositoryUrl>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageTags>.Net Core, Onion Architecture, Architecture, .Net 5, Services</PackageTags>
+    <IsPackable>true</IsPackable>
+    <PackageId>OnionArchitecture.API.Core</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
