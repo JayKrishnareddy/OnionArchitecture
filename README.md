@@ -10,3 +10,6 @@
 If you want to learn more about this Article 👇🏻
 
 [**C# Corner**](https://www.c-sharpcorner.com/article/onion-architecture-in-net-5/ "C# Corner")
+
+[**Medium**](https://www.c-sharpcorner.com/article/onion-architecture-in-net-5/ "Medium")
+
