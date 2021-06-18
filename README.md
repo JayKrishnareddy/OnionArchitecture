@@ -13,5 +13,5 @@ If you want to learn more about this Article 👇🏻
 
 [**Medium**](https://medium.com/nerd-for-tech/onion-architecture-in-net-5-deb04efe9df0 "Medium")
 
-[**Hashnode**](https://medium.com/nerd-for-tech/onion-architecture-in-net-5-deb04efe9df0 "Hashnode")
+[**Hashnode**](https://jaykrishnareddy.hashnode.dev/onion-architecture-in-net-5 "Hashnode")
 
